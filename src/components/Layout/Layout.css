@@ -1,0 +1,44 @@
+.active{
+   color: greenyellow;
+}
+
+header > nav{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   background: rgb(88, 88, 88);
+   
+}
+
+header > nav > a {
+   color: white;
+   padding: 10px 10px;
+   font-size: 30px;
+}
+
+header > nav > a:hover{
+   color: greenyellow;
+}
+
+.main{
+   max-width: 1200px;
+   margin: 10px auto;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   background: rgb(88, 88, 88);
+   width: 100%;
+   min-height: 50px;
+}
+
+.footer_year {
+   color: wheat;
+   font-size: 24px;
+   text-align: end;
+   padding: 10px;
+}

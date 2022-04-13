@@ -1,0 +1,9 @@
+.TodoList{
+    max-width: 1200px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.rowTodo{
+    margin: 10px;
+}
